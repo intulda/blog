@@ -20,7 +20,7 @@ module.exports = {
         // TODO: 여기에 핫로딩 true
         hot : true,
         proxy: {
-            '/api': 'http://localhost:8080/',
+            '/posts': 'http://localhost:4500',
         },
     },
     module: {
